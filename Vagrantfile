@@ -73,5 +73,8 @@ Vagrant.configure("2") do |config|
       cd /home/vagrant
       chmod ugo+x /vagrant/*.sh
       /vagrant/provision1.sh
+      /vagrant/provision2.sh
+      /vagrant/provision3.sh
+      echo "ready! now you can do vagrant ssh, then /vagrant/run.sh, then in another console vagrant ssh and then /vagrant/ssh.sh"
   SHELL
 end
