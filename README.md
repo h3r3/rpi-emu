@@ -3,7 +3,7 @@ Vagrantfile and scripts to quickly setup a VM emulating a Raspberry PI.
 
 Runs QEMU inside a Debian VM in VirtualBox.
 
-This isn't anything new, I just collected information over a few different sites on how to make this work, I just automated and simplified the setup.
+This isn't anything new, I just collected information over a few different sites on how to make this work, automating and simplifying the VM setup.
 
 ## Important notes
 * This roughly emulates a generic Raspberry PI (not a specific version) running the latest Raspbian Jessie Lite.
