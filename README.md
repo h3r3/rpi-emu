@@ -13,7 +13,10 @@ This isn't anything new, I just collected information over a few different sites
 * This setup was tested under OSX but should also work on any other plaform supported by Vagrant and VirtualBox.
 
 ## What can you use this for
-This can be useful to develop or test code, scripts, configurations, targeted for a Raspberry PI. Not having to use a real Raspberry PI can be handy, and gives you the ability to quicly revert to snapshots, create or destroy multiple VMs.
+This can be useful to develop or test code, scripts, configurations, targeted for a Raspberry PI.
+
+Not having to use a real Raspberry PI can be handy, and gives you the ability to quickly revert to snapshots, create or destroy multiple VMs.
+
 Can be useful for automatic unit tests or builds (anyway there are much better/faster ways to setup Raspberry PI build machines).
 
 ## Getting started
@@ -22,7 +25,6 @@ Can be useful for automatic unit tests or builds (anyway there are much better/f
 3. Run "vagrant up", this should download and setup your VM.
 4. Run "vagrant ssh" to ssh into the Debian system.
 5. From the Debian system run "/vagrant/run.sh" to start the Raspberry PI emulation.
-
 6. Open another terminal and cd into the repo directory.
 7. Run "vagrant ssh" to ssh into the Debian system.
 8. Run "/vagrant/ssh.sh" from the Debian system to ssh into the emulated Raspberry PI (note: you may have to wait because startup of the emulated Raspberry Pi can take a while).
