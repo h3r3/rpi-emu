@@ -10,7 +10,7 @@ This isn't anything new, I just collected information over a few different sites
 * The emulated Raspberry PI has only 256 KB of RAM (QEMU limitation).
 * The emulation is slow, slower than the original Raspberry PI even on a fast PC.
 * This setup only allows to ssh in the Raspberry PI console, there's no X11 nor VNC nor any type of graphical support.
-* This setup was tested under OSX but should also work on any other plaform like Windows and Linux.
+* This setup was tested under OSX but should also work on any other plaform supported by Vagrant and VirtualBox.
 
 ## What can you use this for
 This can be useful to develop or test code, scripts, configurations, targeted for a Raspberry PI. Not having to use a real Raspberry PI can be handy, and gives you the ability to quicly revert to snapshots, create or destroy multiple VMs.
