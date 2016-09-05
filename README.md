@@ -24,7 +24,7 @@ Can be useful for automatic unit tests or builds (anyway there are much better/f
 2. Clone or download this repo, open a terminal and cd into it.
 3. Run "vagrant up", this should download and setup your VM.
 4. Run "vagrant ssh" to ssh into the Debian system.
-5. From the Debian system run "/vagrant/run.sh" to start the Raspberry PI emulation.
+5. From the Debian system run "sudo /vagrant/run.sh" to start the Raspberry PI emulation.
 6. Open another terminal and cd into the repo directory.
 7. Run "vagrant ssh" to ssh into the Debian system.
 8. Run "/vagrant/ssh.sh" from the Debian system to ssh into the emulated Raspberry PI (note: you may have to wait because startup of the emulated Raspberry Pi can take a while).
