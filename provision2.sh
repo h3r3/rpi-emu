@@ -18,6 +18,6 @@ unzip raspbian/*.zip -d raspbian
 rm raspbian/*.zip
 mv raspbian/*.img disk.img
 rm -rf raspbian
-wget -nv https://github.com/dhruvvyas90/qemu-rpi-kernel/raw/master/kernel-qemu-4.4.12-jessie
+wget -nv https://github.com/dhruvvyas90/qemu-rpi-kernel/raw/master/kernel-qemu-4.1.13-jessie
 mv kernel-qemu* kernel-qemu
 
