@@ -1,6 +1,6 @@
 #!/bin/bash
 
-qemu-system-arm \
+sudo qemu-system-arm \
         -kernel kernel-qemu \
         -cpu arm1176 \
         -m 256 \
